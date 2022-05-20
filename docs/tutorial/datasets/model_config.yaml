@@ -1,0 +1,15 @@
+yearly_seasonality: 
+    - False
+    - True
+add_monthly_seasonality:
+    - False
+    - {name: ['monthly'], period: [30.5], fourier_order: [5, 13]}
+add_regressor_1:
+    - False
+    - {name: ['regressor1']}
+weekly_seasonality: [True, False]
+holidays: [null, True]
+
+
+
+

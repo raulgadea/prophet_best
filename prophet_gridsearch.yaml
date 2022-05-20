@@ -1,0 +1,12 @@
+name: prophet_gridsearch
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - fbprophet=0.6
+  # nb_conda is used for tutorial, but not required
+  # pyyaml is used for tutorial, but not required
+  - numpy>=1.19.1
+  - pandas>=1.1.1
+  - python>=3.7.5
+  - pip>=19.1.1
